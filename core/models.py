@@ -11,7 +11,7 @@ def upload_to_location(instance, filename):
 	instance.title = blocks[0]
 	return os.path.join('uploads/', filename)
 
-
+ 
 # Create your models here.
 class Location(models.Model):
 	title = models.CharField(max_length=300)
